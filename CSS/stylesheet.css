@@ -84,6 +84,49 @@ html {
     .codespaceLink {
         color: rgb(69, 107, 205);
     }
+
+    .mySkills {
+        display: flex;
+    }
+
+    .mskills {
+        border: 2px solid black;
+        width: 40%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+
+    .skillHeading {
+        text-align: center;
+    }
+
+    .minterests {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2);
+        border: 2px solid black;
+    }
+
+    .interests {
+        font-size: 150%;
+        text-align: center;
+        grid-area: 1 / 1 / 2 / 4;
+    }
+
+    .gym {
+        width: 40%;
+        justify-self: center;
+    }
+
+    .cook {
+        width: 40%;
+        justify-self: center
+    }
+
+    .game {
+        width: 40%;
+        justify-self: center
+    }
 }
 
 /*.....PC screen.....*/
@@ -170,8 +213,14 @@ html {
     }
 
     .mskills {
-        flex-grow: 1;
         border: 2px solid black;
+        width: 30%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+
+    .skillHeading {
+        text-align: center;
     }
 
     .minterests {
@@ -183,12 +232,23 @@ html {
     }
 
     .interests {
+        font-size: 150%;
         text-align: center;
         grid-area: 1 / 1 / 2 / 4;
     }
 
-    img .gym .cook .game {
-        padding: 1rem 1rem;
+    .gym {
+        width: 40%;
         justify-self: center;
-
     }
+
+    .cook {
+        width: 40%;
+        justify-self: center
+    }
+
+    .game {
+        width: 40%;
+        justify-self: center
+    }
+}
