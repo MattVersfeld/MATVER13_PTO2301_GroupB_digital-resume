@@ -32,6 +32,7 @@ html {
 
     .heroBanner {
         display: flex;
+        flex-direction: column;
         background-image: url(/Images/banner-medium.jpg);
         background-size: 100vw;
 
@@ -44,15 +45,16 @@ html {
     }
 
     picture {
-        padding: 1rem 2rem;
+        padding: 0.7rem 1.5rem;
         border-radius: 8px;
+        text-align: center;
     }
 
     .heroBannerTitle {
         color: white;
-        justify-content: center;
         align-self: center;
-        padding: 0.5rem 0.5rem;
+        padding: 1rem 1rem;
+        text-align: center;
     }
 
     .nameTitle {
@@ -65,6 +67,22 @@ html {
 
     .feature {
         font-size: 1rem;
+    }
+
+    .bannerLinks {
+        background-color: rgb(242, 242, 242);
+        text-decoration: none;
+        color: rgb(69, 107, 205);
+        border-radius: 8px;
+        flex-direction: column;
+    }
+
+    .mainProfile {
+        text-align: center;
+    }
+
+    .codespaceLink {
+        color: rgb(69, 107, 205);
     }
 }
 
@@ -133,16 +151,44 @@ html {
     .bannerLinks {
         background-color: rgb(242, 242, 242);
         text-decoration: none;
-        color: black;
+        color: rgb(69, 107, 205);
         border-radius: 8px;
         padding: 0.5rem;
     }
 
-    .bannerLinks :hover {
-        background-color: rgb(69, 107, 205);
+    .mainProfile {
+        text-align: center;
+        padding: 5rem 5rem;
     }
 
-    .bannerLinks a:hover {
-        color: #333;
+    .codespaceLink {
+        color: rgb(69, 107, 205);
     }
-}
+
+    .mySkills {
+        display: flex;
+    }
+
+    .mskills {
+        flex-grow: 1;
+        border: 2px solid black;
+    }
+
+    .minterests {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2);
+        flex-grow: 1;
+        border: 2px solid black;
+    }
+
+    .interests {
+        text-align: center;
+        grid-area: 1 / 1 / 2 / 4;
+    }
+
+    img .gym .cook .game {
+        padding: 1rem 1rem;
+        justify-self: center;
+
+    }
