@@ -1,0 +1,148 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+
+
+/*.....phone screen.....*/
+@media screen and (max-width: 768px) {
+    .menu {
+        display: flex;
+        background-color: #333;
+    }
+
+    .menu :hover {
+        background-color: rgb(69, 107, 205);
+    }
+
+    .topBlocks {
+        padding: 1rem 1rem;
+        flex-wrap: wrap;
+    }
+
+    .topBlocks a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .topBlocks a:hover {
+        color: black;
+    }
+
+    .heroBanner {
+        display: flex;
+        background-image: url(/Images/banner-medium.jpg);
+        background-size: 100vw;
+
+    }
+
+    .profileDefault {
+        width: 100%;
+        border-radius: 30%;
+        border: 3px solid black;
+    }
+
+    picture {
+        padding: 1rem 2rem;
+        border-radius: 8px;
+    }
+
+    .heroBannerTitle {
+        color: white;
+        justify-content: center;
+        align-self: center;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .nameTitle {
+        font-size: 1.5rem;
+    }
+
+    .nameJob {
+        font-size: 1rem;
+    }
+
+    .feature {
+        font-size: 1rem;
+    }
+}
+
+/*.....PC screen.....*/
+@media screen and (min-width: 769px) {
+    .menu {
+        display: flex;
+        background-color: #333;
+    }
+
+    .menu :hover {
+        background-color: rgb(69, 107, 205);
+    }
+
+    .topBlocks {
+        padding: 1rem 1rem;
+        flex-wrap: wrap;
+    }
+
+    .topBlocks a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .topBlocks a:hover {
+        color: black;
+    }
+
+    .heroBanner {
+        display: flex;
+        background-image: url(/Images/banner-large.jpg);
+        background-size: 100vw;
+
+    }
+
+    .profileDefault {
+        width: 75%;
+        border-radius: 30%;
+        border: 3px solid black;
+    }
+
+    picture {
+        padding: 3rem 5rem;
+        border-radius: 8px;
+    }
+
+    .heroBannerTitle {
+        color: white;
+        justify-content: center;
+        align-self: center;
+        padding: 1rem 1rem;
+    }
+
+    .nameTitle {
+        font-size: 3rem;
+    }
+
+    .nameJob {
+        font-size: 2rem;
+    }
+
+    .feature {
+        font-size: 1rem;
+    }
+
+    .bannerLinks {
+        background-color: rgb(242, 242, 242);
+        text-decoration: none;
+        color: black;
+        border-radius: 8px;
+        padding: 0.5rem;
+    }
+
+    .bannerLinks :hover {
+        background-color: rgb(69, 107, 205);
+    }
+
+    .bannerLinks a:hover {
+        color: #333;
+    }
+}
