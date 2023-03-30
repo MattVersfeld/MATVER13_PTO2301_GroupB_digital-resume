@@ -12,6 +12,10 @@ html {
         background-color: #333;
     }
 
+    .topMenu {
+        position: sticky;
+    }
+
     .menu :hover {
         background-color: rgb(69, 107, 205);
     }
@@ -127,6 +131,39 @@ html {
         width: 40%;
         justify-self: center
     }
+
+    footer {
+        display: flex;
+        background-color: #333;
+        padding: 1rem 1rem;
+        width: 100vw;
+    }
+
+    label {
+        color: white;
+        width: 10%;
+        display: inline-block;
+        padding: 1rem 1rem;
+    }
+
+    .contactMe {
+        margin-left: 10%;
+        width: 50%;
+    }
+
+    .contacts {
+        color: white;
+        margin-left: 5%;
+    }
+
+    .submitButton {
+        width: 40%;
+    }
+
+    .social {
+        color: white;
+        width: 50%;
+    }
 }
 
 /*.....PC screen.....*/
@@ -142,7 +179,7 @@ html {
 
     .topBlocks {
         padding: 1rem 1rem;
-        flex-wrap: wrap;
+
     }
 
     .topBlocks a {
@@ -250,5 +287,41 @@ html {
     .game {
         width: 40%;
         justify-self: center
+    }
+
+    .mainExperience {
+        padding: 3rem 3rem;
+    }
+
+    footer {
+        display: flex;
+        background-color: #333;
+        padding: 1rem 1rem;
+        width: 100vw;
+    }
+
+    label {
+        color: white;
+        width: 10%;
+        display: inline-block;
+        padding: 1rem 1rem;
+    }
+
+    .contactMe {
+        width: 50%;
+    }
+
+    .contacts {
+        color: white;
+        margin-left: 5%;
+    }
+
+    .submitButton {
+        width: 40%;
+    }
+
+    .social {
+        color: white;
+        width: 50%;
     }
 }
