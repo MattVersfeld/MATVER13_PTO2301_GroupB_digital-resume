@@ -354,16 +354,71 @@ html {
     .gym {
         width: 40%;
         justify-self: center;
+
+    }
+
+    .gym:hover {
+        animation: gymBounce;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes gymBounce {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-25%);
+        }
     }
 
     .cook {
         width: 40%;
-        justify-self: center
+        justify-self: center;
+
+    }
+
+    .cook:hover {
+        animation: cookFlip;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes cookFlip {
+
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg)
+        }
+
     }
 
     .game {
         width: 40%;
-        justify-self: center
+        justify-self: center;
+
+    }
+
+    .game:hover {
+        animation: gameBounce;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes gameBounce {
+        0% {
+            opacity: 100%;
+        }
+
+        100% {
+            opacity: 0%;
+        }
     }
 
     .mainExperience {
