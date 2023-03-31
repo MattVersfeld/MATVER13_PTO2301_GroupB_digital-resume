@@ -12,15 +12,12 @@ html {
         background-color: #333;
     }
 
-    .topMenu {
-        position: sticky;
-    }
-
     .menu :hover {
         background-color: rgb(69, 107, 205);
     }
 
     .topBlocks {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 1rem 1rem;
         flex-wrap: wrap;
     }
@@ -176,6 +173,43 @@ html {
         color: white;
         padding: 0.5rem;
         margin-top: 5%;
+        animation-name: shake;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes shake {
+
+        0%,
+        7% {
+            transform: rotateZ(0);
+        }
+
+        15% {
+            transform: rotateZ(-20deg);
+        }
+
+        20% {
+            transform: rotateZ(15deg);
+        }
+
+        25% {
+            transform: rotateZ(-15deg);
+        }
+
+        30% {
+            transform: rotateZ(10deg);
+        }
+
+        35% {
+            transform: rotateZ(-5deg);
+        }
+
+        40%,
+        100% {
+            transform: rotateZ(0);
+        }
     }
 
     .social {
@@ -187,6 +221,7 @@ html {
         color: white;
         padding: 0.5rem 0.5rem;
         align-items: start;
+
     }
 
     .socialName {}
@@ -219,6 +254,7 @@ html {
     }
 
     .topBlocks {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 1rem 1rem;
 
     }
@@ -379,6 +415,10 @@ html {
         color: white;
         padding: 1rem;
         margin-top: 5%;
+        animation-name: shake;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
     }
 
     .social {
@@ -388,6 +428,39 @@ html {
         color: white;
         padding: 2rem 2rem;
         align-items: start;
+    }
+
+    @keyframes shake {
+
+        0%,
+        7% {
+            transform: rotateZ(0);
+        }
+
+        15% {
+            transform: rotateZ(-20deg);
+        }
+
+        20% {
+            transform: rotateZ(15deg);
+        }
+
+        25% {
+            transform: rotateZ(-15deg);
+        }
+
+        30% {
+            transform: rotateZ(10deg);
+        }
+
+        35% {
+            transform: rotateZ(-5deg);
+        }
+
+        40%,
+        100% {
+            transform: rotateZ(0);
+        }
     }
 
     .socialName {
@@ -410,4 +483,8 @@ html {
         padding: 1rem 1rem;
     }
 
+    .email {
+        position: absolute;
+        right: 0;
+    }
 }
